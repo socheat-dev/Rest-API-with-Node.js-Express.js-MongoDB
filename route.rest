@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/23
+GET http://localhost:3000/subscribers/63db6675bf298a89fda741df
 
 ###
 
@@ -12,4 +12,16 @@ Content-Type: application/json
 {
     "name": "Socheat",
     "subscribedToChannel": "SocheatDev"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/63da93404f621027db70a62a
+
+###
+PATCH http://localhost:3000/subscribers/63db707be6b5e1e37fe85c39
+Content-Type: application/json
+
+{
+    "name": "Hong Socheat"
 }
